@@ -31,3 +31,56 @@
   display: table;
   clear: both;
 }
+.divContent{
+  justify-content: center;
+  margin-top: 5em;
+}
+.fontStyle{
+  color: white;
+    font-size: 21px;
+    text-align: center;
+}
+.fontColor{
+  color: white;
+    font-size: 21px;
+}
+a,a label {
+  cursor: pointer;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+
+}
+
+.image {
+  max-width: 100%;
+  
+  margin-bottom: 6px;
+}
+.centerAlign{
+  text-align: center
+}
+.navbarCss{
+  justify-content: flex-end !important;
+}
+@media (max-width: 576px) { 
+  .centerAlign{
+    width : 30% !important;
+  }
+  .fontStyle{
+    font-size: 12px;
+    text-align: left;
+  }
+ }
+
+.product{
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 2em;
+  color: #ffffff;
+}
+body{
+  background-color: #0d0d0d !important;
+}
+.bgColor{background-color: #000;}
+.inputClass{color: #fff;}
